@@ -1,0 +1,37 @@
+
+body{
+  background-color: #000000;
+}
+
+h1{
+text-align: center;
+color: white ;
+
+}
+.block-element {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  background-color: #ffffff;
+  text-align: center;
+  justify-content: center; 
+  align-items: center;
+  
+}
+
+
+
+
+p{
+  text-align: center;
+  color: white ;
+  
+  }
+  img{
+    display: flex;
+    width: 10%;
+  }
+  .title-color {
+    color: #ffffff;
+  }
+  
