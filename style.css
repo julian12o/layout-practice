@@ -7,6 +7,7 @@ h1{
 text-align: center;
 color: white ;
 
+
 }
 .block-element {
   display: flex;
@@ -29,9 +30,35 @@ p{
   }
   img{
     display: flex;
-    width: 10%;
+    width: 40%;
   }
   .title-color {
     color: #ffffff;
   }
+
+  .sidenav {
+   
+  background-color: #ffffff;
+  padding-top: 20px;
+  flex: 1 ;
+  text-align: center;
+  }
+  .column{
+    float: left;
+    width: 30%;
+    padding:5px;
+
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .container{
+    display : flex;
+  }
+  .main{
+    flex:4;
+  }
+
   
